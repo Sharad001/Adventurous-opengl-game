@@ -12,7 +12,7 @@ using namespace std;
 //variables ,functions, and structures intiallization
 typedef struct
 {
-  float x,y,z;
+	float x,y,z;
 }point;
 typedef struct
 {
