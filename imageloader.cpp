@@ -7,7 +7,7 @@
 using namespace std;
 
 Image::Image(char* ps, int w, int h) : pixels(ps), width(w), height(h) {
-  
+	
 }
 
 Image::~Image() {
@@ -176,6 +176,7 @@ Image* loadBMP(const char* filename) {
 	input.close();
 	return new Image(pixels2.release(), width, height);
 }
+
 
 
 
