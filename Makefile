@@ -7,7 +7,7 @@ LIBS = -lglut -lGL -lGLU -fpermissive
 
 all: $(PROG)
 
-$(PROG):  $(SRCS)
+$(PROG):	$(SRCS)
 	$(CC) $(CFLAGS) -o $(PROG) $(SRCS) $(LIBS)
 
 clean:
