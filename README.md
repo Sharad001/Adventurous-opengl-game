@@ -22,3 +22,19 @@ http://www.tinyuploads.com/images/xMD8VT.bmp - save it as teleport
 http://www.tinyuploads.com/images/YgwfB0.bmp - save it as tree
 
 save all of them in the same folder where the source codes are there.
+
+Before compiling the code please go through this:
+
+UBUNTU based/similar distros
+
+Paste the following commands in your Terminal/Console.
+
+-- freeglut is an open source Development library of OpenGL/Glut.
+
+         "sudo apt-get install freeglut3 freeglut3-dev mesa-common-dev"
+
+
+-- For newer versions of Ubuntu (>= 11.10) you have to install another package to
+   correctly link the libraries.
+
+         "sudo apt-get install binutils-gold"
